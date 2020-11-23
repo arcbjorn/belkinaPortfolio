@@ -4,7 +4,8 @@ const app = new App({
 	target: document.body,
 	props: {
     name: 'Настюша',
-    greeting: 'Зись ись вери гудь ПОРТФОЛИО ОФ НАСТЮСЯ'
+    greeting: 'Зись ись вери гудь ПОРТФОЛИО ОФ НАСТЮСЯ',
+    hireme: 'HIRE ME NOW'
 	}
 });
 

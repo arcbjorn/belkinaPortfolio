@@ -1,11 +1,13 @@
 <script lang="ts">
 	export let name: string;
 	export let greeting: string;
+	export let hireme: string;
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<h3>{greeting}</h3>
+  <h3>{greeting}</h3>
+	<h3>{hireme}</h3>
 </main>
 
 <style>
