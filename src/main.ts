@@ -3,11 +3,11 @@ import App from './App.svelte';
 const app = new App({
 	target: document.body,
 	props: {
-    name: 'Hello',
-    greeting: 'I create great interfaces',
-    link1: 'Dribble',
-    link2: 'Behance',
-    link3: 'Telegram',
+    company: 'Softlex',
+    dribble: 'Dribble',
+    behance: 'Behance',
+    email: 'anast.belckina@gmail.com',
+    telegram: '@belkinadsgn',
 	}
 });
 
