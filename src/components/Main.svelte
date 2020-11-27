@@ -1,8 +1,13 @@
 <script lang="ts">
   export let company: string;
+
+  import { t } from 'svelte-i18n';
+
 </script>
 
 <template lang="pug">
-  h1 This is Main Section
-  p.hover {company}
+  p {$t('greeting')}
+  p {$t('introduction')}
+  p {$t('description')}
+  p {$t('position')} {company}
 </template>

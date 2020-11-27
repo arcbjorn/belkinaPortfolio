@@ -5,6 +5,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
+import json from '@rollup/plugin-json';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -35,9 +36,11 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+    file: 'public/build/bundle.js',
+    inlineDynamicImports: true
 	},
 	plugins: [
+    json(),
 		svelte({
       preprocess: sveltePreprocess({
         sourceMap: !production,
