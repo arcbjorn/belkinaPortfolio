@@ -14,25 +14,48 @@ a {
 	text-decoration: none;
 }
 
-.hover {
+.line-bold {
   display: inline-block;
   position: relative;
 }
 
-.hover::before {
+.line-bold::before {
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 4px;
-  bottom: -3px;
+  bottom: 6px;
   left: 0;
   background-color: #172237;
   transform-origin: bottom right;
   transition:  transform 0.5s ease-out;
 }
 
-.hover:hover::before {
+.line-bold:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.line {
+  display: inline-block;
+  position: relative;
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  background-color: #172237;
+  transform-origin: bottom right;
+  transition:  transform 0.5s ease-out;
+}
+
+.line:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
