@@ -15,7 +15,6 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-typescript": "^6.0.0",
-    "@smui/button": "^1.0.0",
     "@tsconfig/svelte": "^1.0.0",
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.10",

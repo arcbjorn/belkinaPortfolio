@@ -19,24 +19,25 @@
 </svelte:head>
 
 <template lang="pug">
-  p
-    | {$t('portfolio')}
-    |
-    a.font-bold.hover(target="_blank" href="{dribbbleLink}") Dribble
-    |
-    | &
-    |
-    a.font-bold.hover(target="_blank" href="{behanceLink}") Behance
-  p 
-    | {$t('about')}
-    |
-    a.font-bold.hover(target="_blank" href="{hhLink}") {$t('resume')}
-  p
-    | {$t('contact')}
-    |
-    a.font-bold.hover(target="_blank" href="{resumeLink}") {email}
-    |
-    | {$t('tele')}
-    |
-    a.font-bold.hover(target="_blank" href="{telegramLink}") @{telegram}
+  info.text-base
+    p.my-4
+      | {$t('portfolio')}
+      |
+      a.font-bold.line(target="_blank" href="{dribbbleLink}") Dribbble
+      |
+      | &
+      |
+      a.font-bold.line(target="_blank" href="{behanceLink}") Behance
+    p.my-4
+      | {$t('about')}
+      |
+      a.font-bold.line(target="_blank" href="{hhLink}") {$t('resume')}
+    p.my-4
+      | {$t('contact')}
+      |
+      a.font-bold.line(target="_blank" href="{resumeLink}") {email}
+      |
+      | {$t('tele')}
+      |
+      a.font-bold.line(target="_blank" href="{telegramLink}") @{telegram}
 </template>

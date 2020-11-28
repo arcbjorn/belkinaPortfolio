@@ -22,15 +22,11 @@
 </script>
 
 <template lang="pug">
-  Header
-  Main({company})
-  Info({ ...info })
+  .container.mx-auto
+    .py-16
+      Header
+    .py-16  
+      Main({company})
+    .py-16
+      Info({ ...info })
 </template>
-
-<style lang="scss">
-	// @media (min-width: 640px) {
-	// 	.main {
-	// 		max-width: none;
-	// 	}
-	// }
-</style>
