@@ -8,8 +8,8 @@
 </script>
 
 <template lang="pug">
-  .font-mono.font-extrabold.text-xl.mb-5 {$t('greeting')}
-  .font-mono.text-lg.phone_h-screen.smartphone_h-full.font-light
+  .mb-5.font-mono.font-extrabold.laptop_text-xxl.minitablet_text-xl.phone_text-lg {$t('greeting')}
+  .smartphone_h-screen.minitablet_h-full.font-mono.font-light.laptop_text-md.minitablet_text-sm.phone_text-xs
     .mb-10
       p {$t('introduction')}
       p

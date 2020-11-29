@@ -13,10 +13,19 @@ module.exports = {
   separator: '_',
   theme: {
     fontSize: {
-      sm: ['14px', '21px'],
+      smbase: ['14px', '21px'],
+      i18n: ['16px', {
+        letterSpacing: '0.15em',
+        lineHeight: '24px',
+      }],
       base: ['18px', '27px'],
-      lg: ['34px', '51px'],
-      xl: ['118px', '177px'],
+      xxs: ['20px', '30px'],
+      xs: ['22px', '33px'],
+      sm: ['28px', '42px'],
+      md: ['34px', '51px'],
+      lg: ['56px', '84px'],
+      xl: ['98px', '147px'],
+      xxl: ['118px', '177px'],
     },
     fontFamily: {
       'sans': ['Roboto', ...defaultTheme.fontFamily.sans],

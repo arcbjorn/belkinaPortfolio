@@ -3,7 +3,7 @@
 </script>
 
 <template lang="pug">
-  select.font-mono.font-bold.text-sm(bind:value!="{$locale}")
+  select.font-mono.font-bold.text-i18n(bind:value!="{$locale}")
     +each('$locales as locale')
       option(value!="{locale}") {locale}
           //- svg(width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg")
@@ -17,8 +17,6 @@
     -ms-appearance: none;
     appearance: none;
 
-    background-image: url(...);
     background-color: white;
-    border: 2px solid rgba(23, 34, 55, 0.05);
   }
 </style>

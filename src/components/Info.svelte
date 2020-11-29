@@ -19,7 +19,7 @@
 </svelte:head>
 
 <template lang="pug">
-  info.text-base
+  info.minitablet_text-base.phone_text-xs
     p.my-4
       | {$t('portfolio')}
       |
