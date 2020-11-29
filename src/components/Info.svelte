@@ -20,7 +20,7 @@
 
 <template lang="pug">
   info.minitablet_text-base.phone_text-xs
-    p.my-4
+    p.phone_my-10.minitablet_my-4
       | {$t('portfolio')}
       |
       a.font-bold.line(target="_blank" href="{dribbbleLink}") Dribbble
@@ -28,11 +28,11 @@
       | &
       |
       a.font-bold.line(target="_blank" href="{behanceLink}") Behance
-    p.my-4
+    p.phone_my-10.minitablet_my-4
       | {$t('about')}
       |
       a.font-bold.line(target="_blank" href="{hhLink}") {$t('resume')}
-    p.my-4
+    p.phone_my-10.minitablet_my-4
       | {$t('contact')}
       |
       a.font-bold.line(target="_blank" href="{resumeLink}") {email}
