@@ -552,10 +552,6 @@ video {
   }
 }
 
-.border {
-  border-width: 1px;
-}
-
 .table {
   display: table;
 }
@@ -576,24 +572,10 @@ video {
   font-weight: 800;
 }
 
-.text-sm {
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.text-base {
-  font-size: 18px;
-  line-height: 27px;
-}
-
-.text-lg {
-  font-size: 34px;
-  line-height: 51px;
-}
-
-.text-xl {
-  font-size: 118px;
-  line-height: 177px;
+.text-i18n {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
 }
 
 .my-4 {
@@ -737,24 +719,57 @@ a {
 }
 
 @media (min-width: 320px) {
-  .phone_h-screen {
-    height: 100vh;
+  .phone_text-xs {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .phone_text-lg {
+    font-size: 56px;
+    line-height: 84px;
   }
 }
 
 @media (min-width: 480px) {
-  .smartphone_h-full {
-    height: 100%;
+  .smartphone_h-screen {
+    height: 100vh;
   }
 }
 
 @media (min-width: 640px) {
+  .minitablet_h-full {
+    height: 100%;
+  }
+
+  .minitablet_text-base {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .minitablet_text-sm {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .minitablet_text-xl {
+    font-size: 98px;
+    line-height: 147px;
+  }
 }
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 1024px) {
+  .laptop_text-md {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+  .laptop_text-xxl {
+    font-size: 118px;
+    line-height: 177px;
+  }
 }
 
 @media (min-width: 1280px) {
