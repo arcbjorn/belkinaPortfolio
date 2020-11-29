@@ -540,12 +540,6 @@ video {
   }
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
@@ -576,11 +570,6 @@ video {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.15em;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .mx-auto {
@@ -719,6 +708,10 @@ a {
 }
 
 @media (min-width: 320px) {
+  .phone_h-screen {
+    height: 100vh;
+  }
+
   .phone_text-xs {
     font-size: 22px;
     line-height: 33px;
@@ -728,19 +721,20 @@ a {
     font-size: 56px;
     line-height: 84px;
   }
+
+  .phone_my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
 }
 
 @media (min-width: 480px) {
-  .smartphone_h-screen {
-    height: 100vh;
+  .smartphone_h-full {
+    height: 100%;
   }
 }
 
 @media (min-width: 640px) {
-  .minitablet_h-full {
-    height: 100%;
-  }
-
   .minitablet_text-base {
     font-size: 18px;
     line-height: 27px;
@@ -754,6 +748,11 @@ a {
   .minitablet_text-xl {
     font-size: 98px;
     line-height: 147px;
+  }
+
+  .minitablet_my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -770,10 +769,4 @@ a {
     font-size: 118px;
     line-height: 177px;
   }
-}
-
-@media (min-width: 1280px) {
-}
-
-@media (min-width: 1440px) {
 }
