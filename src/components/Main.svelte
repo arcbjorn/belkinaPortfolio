@@ -9,7 +9,7 @@
 
 <template lang="pug">
   .mb-5.font-mono.font-extrabold.laptop_text-xxl.minitablet_text-xl.phone_text-lg {$t('greeting')}
-  .phone_h-screen.smartphone_h-full.font-mono.font-light.laptop_text-md.minitablet_text-sm.phone_text-xs
+  .font-mono.font-light.laptop_text-md.minitablet_text-sm.phone_text-xs
     .mb-10
       p {$t('introduction')}
       p

@@ -9,8 +9,8 @@ addMessages('EN', EN);
 
 export function initiateLocalisation() {
   init({
-    initialLocale: 'ru',
-    fallbackLocale: 'en',
+    initialLocale: 'RU',
+    fallbackLocale: 'EN',
   });
 }
 
