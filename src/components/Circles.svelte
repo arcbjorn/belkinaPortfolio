@@ -11,13 +11,13 @@
 <style lang="scss">
   circles {
     position: absolute;
-    filter: blur(12rem);
+    filter: blur(14rem);
     z-index: -1;
   }
 
   .layout {
     position: relative;
-    margin: 10vh 0 0 100vh;
+    margin: 5vh 0 0 100vh;
     width: 680px;
     height: 660px;
   }
