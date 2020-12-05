@@ -551,8 +551,20 @@ video {
   border-width: 1px;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .font-mono {
@@ -575,6 +587,11 @@ video {
   height: 100vh;
 }
 
+.text-smbase {
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .text-i18n {
   font-size: 16px;
   line-height: 24px;
@@ -592,6 +609,11 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-16 {

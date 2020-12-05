@@ -10,6 +10,7 @@
   import Main from './components/Main.svelte';
   import Info from './components/Info.svelte';
   import Circles from './components/Circles.svelte';
+  import Footer from './components/Footer.svelte';
 
   initiateLocalisation();
 
@@ -33,4 +34,6 @@
         Main({company})
     .py-16
       Info({ ...info })
+    .py-2
+      Footer
 </template>
