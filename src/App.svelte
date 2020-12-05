@@ -9,7 +9,7 @@
   import Header from './components/Header.svelte';
   import Main from './components/Main.svelte';
   import Info from './components/Info.svelte';
-  // import Circles from './components/Circles.svelte';
+  import Circles from './components/Circles.svelte';
 
   initiateLocalisation();
 
@@ -24,7 +24,7 @@
 
 <template lang="pug">
   //- .blur.w-full.h-screen
-    //- Circles
+  Circles
   .container.mx-auto
     .phone_h-screen.smartphone_h-full
       .py-16
@@ -34,10 +34,3 @@
     .py-16
       Info({ ...info })
 </template>
-
-<style>
-  /* .blur {
-    background: rgba(233, 236, 238, 0.5);
-    backdrop-filter: blur(180px);
-  } */
-</style>
