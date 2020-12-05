@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {
+body {
   color: #172237;
-  background-color: #ffffff;
 	margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  background: rgba(233, 236, 238, 0.5);
-  backdrop-filter: blur(180px);
+  background-color: rgba(233, 236, 238, 0.5);
 }
 
 a {
