@@ -2,62 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: #172237;
-	margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #E9ECEE;
-}
+@layer utilities {
+  body {
+    color: #172237;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #E9ECEE;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .line-bold {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .line-bold::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 4px;
+    left: 0;
+    background-color: #172237;
+    transform-origin: bottom right;
+    transition:  transform 0.5s ease-out;
+  }
+  
+  .line-bold:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .line {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .line::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 2px;
+    left: 0;
+    background-color: #172237;
+    transform-origin: bottom right;
+    transition:  transform 0.5s ease-out;
+  }
+  
+  .line:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
-a {
-	text-decoration: none;
-}
+  @variants responsive {
+    .layout {
+      position: relative;
+      margin: 45vh 0 0 5vh;
+      width: 400px;
+      height: 380px;
+    }
 
-.line-bold {
-  display: inline-block;
-  position: relative;
-}
+    .sm-layout {
+      position: relative;
+      margin: 20vh 0 0 25vh;
+      width: 400px;
+      height: 380px;
+    }
 
-.line-bold::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 4px;
-  bottom: 6px;
-  left: 0;
-  background-color: #172237;
-  transform-origin: bottom right;
-  transition:  transform 0.5s ease-out;
-}
+    .md-layout {
+      position: relative;
+      margin: 15vh 0 0 28vh;
+      width: 500px;
+      height: 480px;
+    }
 
-.line-bold:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
+    .lg-layout {
+      position: relative;
+      margin: 15vh 0 0 40vh;
+      width: 680px;
+      height: 660px;
+    }
 
-.line {
-  display: inline-block;
-  position: relative;
-}
-
-.line::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 2px;
-  left: 0;
-  background-color: #172237;
-  transform-origin: bottom right;
-  transition:  transform 0.5s ease-out;
-}
-
-.line:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+    .xlg-layout {
+      position: relative;
+      margin: 5vh 0 0 100vh;
+      width: 680px;
+      height: 660px;
+    }
+  }
 }
