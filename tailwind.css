@@ -67,7 +67,7 @@
     .layout {
       position: relative;
       margin: 55vh 0 0 5vh;
-      width: 340px;
+      width: 320px;
       height: 360px;
     }
 
@@ -102,7 +102,7 @@
     .arrow {
       position: absolute;
       left: 50%;
-      bottom: 15%;
+      bottom: 10%;
       display: block;
       text-align: center;
       font-size: 20px;
