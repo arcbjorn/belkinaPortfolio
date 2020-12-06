@@ -714,7 +714,6 @@ body {
   width: 100%;
   box-sizing: border-box;
   background-color: #E9ECEE;
-  overflow: hidden;
 }
 
 a {
@@ -769,9 +768,9 @@ a {
 
 .layout {
   position: relative;
-  margin: 45vh 0 0 5vh;
-  width: 380px;
-  height: 380px;
+  margin: 55vh 0 0 5vh;
+  width: 340px;
+  height: 360px;
 }
 
 /*animated scroll arrow animation*/
@@ -806,7 +805,7 @@ a {
   .mobile_arrow {
     position: absolute;
     left: 50%;
-    bottom: 20%;
+    bottom: 15%;
     display: block;
     text-align: center;
     font-size: 20px;
