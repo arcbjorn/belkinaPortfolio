@@ -32,7 +32,7 @@
         Header
       .py-16  
         Main({company})
-    .py-16
+    .py-14
       Info({ ...info })
     .py-2
       Footer

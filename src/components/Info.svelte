@@ -19,25 +19,25 @@
 </svelte:head>
 
 <template lang="pug">
-  info.minitablet_text-base.phone_text-xs
-    p.phone_my-10.minitablet_my-4
+  info.text-xs.minitablet_text-base
+    p.my-10.minitablet_my-4
       | {$t('portfolio')}
       |
-      a.font-bold.line(target="_blank" href="{dribbbleLink}") Dribbble
+      a.font-bold.line(target="_blank" href!="{dribbbleLink}") Dribbble
       |
       | &
       |
-      a.font-bold.line(target="_blank" href="{behanceLink}") Behance
-    p.phone_my-10.minitablet_my-4
+      a.font-bold.line(target="_blank" href!="{behanceLink}") Behance
+    p.my-10.minitablet_my-4
       | {$t('about')}
       |
-      a.font-bold.line(target="_blank" href="{hhLink}") {$t('resume')}
-    p.phone_my-10.minitablet_my-4
+      a.font-bold.line(target="_blank" href!="{hhLink}") {$t('resume')}
+    p.my-10.minitablet_my-4
       | {$t('contact')}
       |
-      a.font-bold.line(target="_blank" href="{resumeLink}") {email}
+      a.font-bold.line(target="_blank" href!="{resumeLink}") {email}
       |
       | {$t('tele')}
       |
-      a.font-bold.line(target="_blank" href="{telegramLink}") @{telegram}
+      a.font-bold.line(target="_blank" href!="{telegramLink}") @{telegram}
 </template>

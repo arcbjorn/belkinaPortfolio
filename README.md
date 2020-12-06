@@ -6,7 +6,7 @@
 Install the dependencies...
 
 ```bash
-cd belkina-portfolio
+cd belkinaPortfolio
 npm install
 ```
 

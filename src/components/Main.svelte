@@ -8,8 +8,8 @@
 </script>
 
 <template lang="pug">
-  .mb-5.font-mono.font-extrabold.laptop_text-xxl.minitablet_text-xl.phone_text-lg {$t('greeting')}
-  .font-mono.font-light.laptop_text-md.minitablet_text-sm.phone_text-xs
+  .mb-5.font-mono.font-extrabold.text-lg.minitablet_text-xl.laptop_text-xxl {$t('greeting')}
+  .font-mono.font-light.text-xs.minitablet_text-sm.laptop_text-md
     .mb-10
       p {$t('introduction')}
       p
@@ -19,5 +19,5 @@
     p
       | {$t('position')}
       |
-      a.font-bold.line-bold(target="_blank" href="{softlexLink}") {company}
+      a.font-bold.line-bold(target="_blank" href!="{softlexLink}") {company}
 </template>
