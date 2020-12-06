@@ -27,11 +27,12 @@
   //- .blur.w-full.h-screen
   Circles
   .container.mx-auto
-    .phone_h-screen.smartphone_h-full
+    .h-screen.smartphone_h-full
       .py-16
         Header
       .py-16  
         Main({company})
+    .mobile_arrow
     .py-10
       Info({ ...info })
     .py-4

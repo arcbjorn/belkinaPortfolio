@@ -33,6 +33,7 @@ module.exports = {
     },
     extend: {
       screens: {
+        mobile: {'max': '480px'},
         phone: '320px',
         smartphone: '480px',
         minitablet: '640px',

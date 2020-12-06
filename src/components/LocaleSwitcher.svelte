@@ -29,7 +29,8 @@
 
 .dropdown-el {
   margin-top: 10vh;
-    
+  
+  background: #E9ECEE;
   width: 5em;
   position: fixed;
   display: inline-block;
@@ -93,7 +94,8 @@
   }
 
   &.expanded {
-    border: .06em solid $color;
+    background: #E9ECEE;
+    border: .06em solid transparent;
     border-radius: 1em;
     padding: 0;
     box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
