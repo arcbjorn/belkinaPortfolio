@@ -598,6 +598,21 @@ video {
   letter-spacing: 0.15em;
 }
 
+.text-xs {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.text-lg {
+  font-size: 56px;
+  line-height: 84px;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -614,6 +629,11 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-16 {
@@ -711,7 +731,7 @@ a {
   width: 100%;
   transform: scaleX(0);
   height: 4px;
-  bottom: 6px;
+  bottom: 4px;
   left: 0;
   background-color: #172237;
   transform-origin: bottom right;
@@ -746,6 +766,13 @@ a {
   transform-origin: bottom left;
 }
 
+.layout {
+  position: relative;
+  margin: 45vh 0 0 5vh;
+  width: 400px;
+  height: 380px;
+}
+
 @media (min-width: 640px) {
 }
 
@@ -764,21 +791,6 @@ a {
 @media (min-width: 320px) {
   .phone_h-screen {
     height: 100vh;
-  }
-
-  .phone_text-xs {
-    font-size: 22px;
-    line-height: 33px;
-  }
-
-  .phone_text-lg {
-    font-size: 56px;
-    line-height: 84px;
-  }
-
-  .phone_my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
   }
 }
 
@@ -808,9 +820,22 @@ a {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  .minitablet_sm-layout {
+    position: relative;
+    margin: 20vh 0 0 25vh;
+    width: 400px;
+    height: 380px;
+  }
 }
 
 @media (min-width: 768px) {
+  .tablet_md-layout {
+    position: relative;
+    margin: 15vh 0 0 28vh;
+    width: 500px;
+    height: 480px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -822,5 +847,21 @@ a {
   .laptop_text-xxl {
     font-size: 118px;
     line-height: 177px;
+  }
+
+  .laptop_lg-layout {
+    position: relative;
+    margin: 15vh 0 0 40vh;
+    width: 680px;
+    height: 660px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop_xlg-layout {
+    position: relative;
+    margin: 5vh 0 0 100vh;
+    width: 680px;
+    height: 660px;
   }
 }
