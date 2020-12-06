@@ -32,8 +32,8 @@
         Header
       .py-16  
         Main({company})
-    .py-14
+    .py-10
       Info({ ...info })
-    .py-2
+    .py-4
       Footer
 </template>
