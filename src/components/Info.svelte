@@ -23,21 +23,21 @@
     p.my-10.minitablet_my-4
       | {$t('portfolio')}
       |
-      a.font-bold.line(target="_blank" href!="{dribbbleLink}") Dribbble
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{dribbbleLink}") Dribbble
       |
       | &
       |
-      a.font-bold.line(target="_blank" href!="{behanceLink}") Behance
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{behanceLink}") Behance
     p.my-10.minitablet_my-4
       | {$t('about')}
       |
-      a.font-bold.line(target="_blank" href!="{hhLink}") {$t('resume')}
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{hhLink}") {$t('resume')}
     p.my-10.minitablet_my-4
       | {$t('contact')}
       |
-      a.font-bold.line(target="_blank" href!="{resumeLink}") {email}
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{resumeLink}") {email}
       |
       | {$t('tele')}
       |
-      a.font-bold.line(target="_blank" href!="{telegramLink}") @{telegram}
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{telegramLink}") @{telegram}
 </template>

@@ -19,5 +19,5 @@
     p
       | {$t('position')}
       |
-      a.font-bold.line-bold(target="_blank" href!="{softlexLink}") {company}
+      a.font-bold.line-bold(target="_blank" rel="noopener noreferrer" href!="{softlexLink}") {company}
 </template>
