@@ -24,17 +24,23 @@
 </script>
 
 <template lang="pug">
-  //- .blur.w-full.h-screen
   Circles
-  .container.mx-auto
-    .h-screen.smartphone_h-full
-      .py-16
+  .container.mx-auto.h-full.smartphone_pt-44
+    .h-screen.smartphone_mainheight
+      .header
         Header
-      .py-16  
+      .main 
         Main({company})
     .mobile_arrow
-    .py-10
+    .pt-20
       Info({ ...info })
-    .py-4
+    .pt-20.pb-4
       Footer
 </template>
+
+<style>
+  /* for mobile */
+  .header {
+    height: 30%;
+  }
+</style>

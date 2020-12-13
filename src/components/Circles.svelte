@@ -11,7 +11,13 @@
 <style lang="scss">
   circles {
     position: absolute;
-    filter: blur(180px);
     z-index: -1;
+    -webkit-filter: blur(160px); 
+    -moz-filter: blur(160px);
+    -ms-filter: blur(160px);
+    -o-filter: blur(160px);
+    filter: blur(160px);
+    // filter: url(#blur);   
+    // filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='160');
   }
 </style>

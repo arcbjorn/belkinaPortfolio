@@ -64,6 +64,10 @@
   }
 
   @variants responsive {
+    .mainheight {
+      height: 60%;
+    }
+
     .layout {
       position: relative;
       margin: 55vh 0 0 5vh;
