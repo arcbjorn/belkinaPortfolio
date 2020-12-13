@@ -583,6 +583,10 @@ video {
   font-weight: 800;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -626,19 +630,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
+.pb-4 {
   padding-bottom: 1rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 * {
@@ -652,10 +649,6 @@ video {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .transform {
@@ -829,8 +822,12 @@ a {
 }
 
 @media (min-width: 480px) {
-  .smartphone_h-full {
-    height: 100%;
+  .smartphone_pt-44 {
+    padding-top: 11rem;
+  }
+
+  .smartphone_mainheight {
+    height: 60%;
   }
 }
 
