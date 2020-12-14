@@ -34,13 +34,13 @@
     .mobile_arrow
     .pt-20
       Info({ ...info })
-    .pt-20.pb-4
+    .pt-12.pb-4
       Footer
 </template>
 
 <style>
   /* for mobile */
   .header {
-    height: 30%;
+    height: 25%;
   }
 </style>
