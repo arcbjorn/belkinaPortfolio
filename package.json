@@ -7,8 +7,9 @@
     "build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/index.css",
     "build": "npm run build:tailwind && rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
-    "start": "sirv public",
-    "validate": "svelte-check"
+    "start": "sirv public --host",
+    "validate": "svelte-check",
+    "deploy": "git subtree --prefix public push origin deploy"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
