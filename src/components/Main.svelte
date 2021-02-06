@@ -1,10 +1,8 @@
 <script lang="ts">
-  export let company: string;
+  export let companyName: string;
+  export let companyWebsite: string;
 
-  import { t } from 'svelte-i18n';
-
-  const softlexLink = "https://softlex.pro";
-
+  import { t } from "svelte-i18n";
 </script>
 
 <template lang="pug">
@@ -19,5 +17,9 @@
     p
       | {$t('position')}
       |
-      a.font-bold.line-bold(target="_blank" rel="noopener noreferrer" href!="{softlexLink}") {company}
+      a.font-bold.line-bold(
+        target="_blank"
+        rel="noopener noreferrer"
+        href!="{companyWebsite}"
+        ) {companyName}
 </template>

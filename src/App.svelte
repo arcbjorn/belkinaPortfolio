@@ -1,5 +1,6 @@
 <script lang="ts">
-  export let company: string;
+  export let companyName: string;
+  export let companyWebsite: string;
 	export let dribbble: string;
 	export let behance: string;
 	export let email: string;
@@ -21,6 +22,11 @@
     telegram
   };
 
+  const companyInfo = {
+    companyName,
+    companyWebsite,
+  }
+
 </script>
 
 <template lang="pug">
@@ -30,7 +36,7 @@
       .header
         Header
       .main 
-        Main({company})
+        Main({ ...companyInfo })
     .mobile_arrow
     .pt-20
       Info({ ...info })
