@@ -5482,35 +5482,35 @@ var app = (function () {
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
     			attr_dev(a0, "href", /*dribbbleLink*/ ctx[5]);
-    			add_location(a0, file$2, 17, 0, 602);
+    			add_location(a0, file$2, 17, 0, 570);
     			attr_dev(a1, "class", "font-bold line");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
     			attr_dev(a1, "href", /*behanceLink*/ ctx[6]);
-    			add_location(a1, file$2, 19, 0, 707);
+    			add_location(a1, file$2, 19, 0, 675);
     			attr_dev(p0, "class", "my-10 minitablet_my-4");
-    			add_location(p0, file$2, 16, 43, 551);
+    			add_location(p0, file$2, 16, 43, 519);
     			attr_dev(a2, "class", "font-bold line");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "rel", "noopener noreferrer");
-    			attr_dev(a2, "href", hhLink);
-    			add_location(a2, file$2, 20, 0, 858);
+    			attr_dev(a2, "href", cvLink);
+    			add_location(a2, file$2, 20, 0, 826);
     			attr_dev(p1, "class", "my-10 minitablet_my-4");
-    			add_location(p1, file$2, 19, 104, 811);
+    			add_location(p1, file$2, 19, 104, 779);
     			attr_dev(a3, "class", "font-bold line");
     			attr_dev(a3, "target", "_blank");
     			attr_dev(a3, "rel", "noopener noreferrer");
-    			attr_dev(a3, "href", /*resumeLink*/ ctx[3]);
-    			add_location(a3, file$2, 21, 0, 1013);
+    			attr_dev(a3, "href", /*emailLink*/ ctx[3]);
+    			add_location(a3, file$2, 21, 0, 981);
     			attr_dev(a4, "class", "font-bold line");
     			attr_dev(a4, "target", "_blank");
     			attr_dev(a4, "rel", "noopener noreferrer");
     			attr_dev(a4, "href", /*telegramLink*/ ctx[4]);
-    			add_location(a4, file$2, 23, 0, 1126);
+    			add_location(a4, file$2, 23, 0, 1093);
     			attr_dev(p2, "class", "my-10 minitablet_my-4");
-    			add_location(p2, file$2, 20, 106, 964);
+    			add_location(p2, file$2, 20, 106, 932);
     			attr_dev(info, "class", "text-xs minitablet_text-base");
-    			add_location(info, file$2, 16, 0, 508);
+    			add_location(info, file$2, 16, 0, 476);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5575,7 +5575,7 @@ var app = (function () {
     	return block;
     }
 
-    const hhLink = "https://krasnodar.hh.ru/resume/86351e32ff07ff36510039ed1f56764d4d5a4a";
+    const cvLink = "https://anastasiabelkina.com/CV_AB.pdf";
 
     function instance$3($$self, $$props, $$invalidate) {
     	let $t;
@@ -5587,7 +5587,7 @@ var app = (function () {
     	let { behance } = $$props;
     	let { email } = $$props;
     	let { telegram } = $$props;
-    	const resumeLink = `mailto:${email}`;
+    	const emailLink = `mailto:${email}`;
     	const telegramLink = `https://tgrm.github.io/${telegram}`;
     	const dribbbleLink = `https://dribbble.com/${dribbble}`;
     	const behanceLink = `https://www.behance.net/${behance}`;
@@ -5610,8 +5610,8 @@ var app = (function () {
     		email,
     		telegram,
     		t: te,
-    		hhLink,
-    		resumeLink,
+    		cvLink,
+    		emailLink,
     		telegramLink,
     		dribbbleLink,
     		behanceLink,
@@ -5633,7 +5633,7 @@ var app = (function () {
     		email,
     		telegram,
     		$t,
-    		resumeLink,
+    		emailLink,
     		telegramLink,
     		dribbbleLink,
     		behanceLink,

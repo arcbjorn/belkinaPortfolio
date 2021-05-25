@@ -6,8 +6,8 @@
 
   import { t } from 'svelte-i18n';
 
-  const hhLink = "https://krasnodar.hh.ru/resume/86351e32ff07ff36510039ed1f56764d4d5a4a";
-  const resumeLink = `mailto:${email}`;
+  const cvLink = "https://anastasiabelkina.com/CV_AB.pdf";
+  const emailLink = `mailto:${email}`;
   const telegramLink= `https://tgrm.github.io/${telegram}`;
   const dribbbleLink = `https://dribbble.com/${dribbble}`;
   const behanceLink = `https://www.behance.net/${behance}`;
@@ -31,11 +31,11 @@
     p.my-10.minitablet_my-4
       | {$t('about')}
       |
-      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{hhLink}") {$t('resume')}
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{cvLink}") {$t('resume')}
     p.my-10.minitablet_my-4
       | {$t('contact')}
       |
-      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{resumeLink}") {email}
+      a.font-bold.line(target="_blank" rel="noopener noreferrer" href!="{emailLink}") {email}
       |
       | {$t('tele')}
       |
